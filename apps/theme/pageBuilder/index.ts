@@ -11,7 +11,8 @@ export default [
                 secondary: "var(--webiny-theme-color-secondary)",
                 background: "var(--webiny-theme-color-background)",
                 surface: "var(--webiny-theme-color-surface)",
-                textPrimary: "var(--webiny-theme-color-text-primary)"
+                textPrimary: "var(--webiny-theme-color-text-primary)",
+                otherColor: "var(--webiny-theme-color-jackson)"
             },
             elements: {
                 button: {
