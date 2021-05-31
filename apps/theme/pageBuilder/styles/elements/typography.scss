@@ -238,3 +238,9 @@ h6 {
 .webiny-pb-typography--primary {
   color: var(--webiny-theme-color-primary, #ee896b);
 }
+
+.webiny-pb-typography-code-block {
+  color: var(--desktop-color, var(--webiny-theme-color-text-primary, rgb(10, 10, 10)));
+  background: #DAE7FF;
+  font-family: monospace;
+}
