@@ -32,6 +32,7 @@ export default [
                     types: [
                         { className: "webiny-pb-typography-body", label: "Body" },
                         { className: "webiny-pb-typography-description", label: "Description" }
+                        { className: "webiny-pb-typography-code-block", label: "Code Block" }
                     ]
                 },
                 list: {
