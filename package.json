@@ -3,17 +3,17 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@webiny/aws-layers": "5.7.0",
-		"@webiny/cli": "5.7.0",
-		"@webiny/cli-plugin-deploy-pulumi": "5.7.0",
-		"@webiny/cli-plugin-scaffold": "5.7.0",
-		"@webiny/cli-plugin-scaffold-admin-app-module": "5.7.0",
-		"@webiny/cli-plugin-scaffold-ci": "5.7.0",
-		"@webiny/cli-plugin-scaffold-graphql-service": "5.7.0",
-		"@webiny/cli-plugin-scaffold-react-component": "5.7.0",
-		"@webiny/cli-plugin-workspaces": "5.7.0",
-		"@webiny/cwp-template-aws": "5.7.0",
-		"@webiny/project-utils": "5.7.0"
+		"@webiny/aws-layers": "5.8.0",
+		"@webiny/cli": "5.8.0",
+		"@webiny/cli-plugin-deploy-pulumi": "5.8.0",
+		"@webiny/cli-plugin-scaffold": "5.8.0",
+		"@webiny/cli-plugin-scaffold-admin-app-module": "5.8.0",
+		"@webiny/cli-plugin-scaffold-ci": "5.8.0",
+		"@webiny/cli-plugin-scaffold-graphql-service": "5.8.0",
+		"@webiny/cli-plugin-scaffold-react-component": "5.8.0",
+		"@webiny/cli-plugin-workspaces": "5.8.0",
+		"@webiny/cwp-template-aws": "5.8.0",
+		"@webiny/project-utils": "5.8.0"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.10.4",

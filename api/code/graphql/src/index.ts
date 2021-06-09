@@ -15,6 +15,7 @@ import logsPlugins from "@webiny/handler-logs";
 import fileManagerS3 from "@webiny/api-file-manager-s3";
 import formBuilderPlugins from "@webiny/api-form-builder/plugins";
 import securityPlugins from "./security";
+import headlessCmsDynamoDbElasticStorageOperation from "@webiny/api-headless-cms-ddb-es";
 import headlessCmsPlugins from "@webiny/api-headless-cms/plugins";
 
 const debug = process.env.DEBUG === "true";
@@ -51,7 +52,8 @@ export const handler = createHandler({
         }),
         pageBuilderPlugins(),
         formBuilderPlugins(),
-        headlessCmsPlugins()
+        headlessCmsPlugins(),
+        headlessCmsDynamoDbElasticStorageOperation()
     ],
     http: { debug }
 });
